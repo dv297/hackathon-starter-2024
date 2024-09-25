@@ -1,11 +1,12 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
-import "./index.css";
-import Home from "./routes/Home";
-import About from "./routes/About";
+import "@/index.css";
+
+import About from "@/routes/About";
+import Home from "@/routes/Home";
 
 const queryClient = new QueryClient();
 
