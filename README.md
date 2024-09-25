@@ -6,6 +6,7 @@ Here is a project that configures the following tools in a monorepo:
 
 - UI
   - React with TypeScript
+  - React Router
   - React Query
   - TailwindCSS
   - ShadCN
@@ -17,4 +18,14 @@ Here is a project that configures the following tools in a monorepo:
 ```bash
 npm install
 npm run dev
+```
+
+# Adding Components
+
+This project is set up with ShadCN, which provides command-line interface tools to scaffold some starter components.
+
+To add a component, run the following command:
+
+```bash
+npm run generate:component
 ```

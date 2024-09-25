@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port 4000 --open",
+    "generate:component": "npx shadcn add",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
