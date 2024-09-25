@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "nodemon app.js localhost 3000",
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "check": "eslint ."
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",

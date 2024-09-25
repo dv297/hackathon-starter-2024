@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import { Button } from "../components/ui/button";
 import { useQuery } from "@tanstack/react-query";
+
+import { Button } from "@/components/ui/button";
 
 function App() {
   const query = useQuery({

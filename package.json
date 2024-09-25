@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "npm-run-all --parallel dev:ui dev:api",
     "dev:ui": "npm run dev --workspace=ui",
-    "dev:api": " npm run dev --workspace=api",
+    "dev:api": "npm run dev --workspace=api",
+    "check": "npm run check --workspaces",
     "generate:component": "npm run generate:component --workspace=ui",
     "prepare": "husky"
   },
