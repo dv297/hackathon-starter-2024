@@ -1,4 +1,5 @@
-import { Button } from "./components/ui/button";
+import { Link } from "react-router-dom";
+import { Button } from "../components/ui/button";
 import { useQuery } from "@tanstack/react-query";
 
 function App() {
@@ -21,12 +22,8 @@ function App() {
         </span>
       )}
       <div className="p-4">
-        <Button
-          onClick={() => {
-            alert("Success");
-          }}
-        >
-          Learn More
+        <Button asChild>
+          <Link to="/about">Learn More</Link>
         </Button>
       </div>
     </div>
