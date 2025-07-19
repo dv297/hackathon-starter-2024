@@ -1,12 +1,13 @@
-const express = require("express");
-const cookieParser = require("cookie-parser");
-const cors = require("cors");
+import 'dotenv/config'
 
-const logger = require("morgan");
+import express from "express";
+import cookieParser from "cookie-parser";
+import cors from "cors";
+import logger from "morgan";
 
-const indexRouter = require("./routes/index");
+import indexRouter from "./routes";
 
-const port = 3000;
+const port = process.env.PORT;
 const app = express();
 
 app.use(logger("dev"));
